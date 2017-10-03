@@ -1,0 +1,36 @@
+/*more styles*/
+
+/* Spacing before About Me */
+#moreSpace{
+    padding-top: 100px;
+}
+
+/* Social Media Buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #007bb5;
+  color: white;
+}
