@@ -1,8 +1,12 @@
-/*more styles*/
+/*Some custom styling*/
 
 /* Spacing before About Me */
-#moreSpace{
+#aboutMeHeader{
     padding-top: 100px;
+}
+
+#aboutMeContent{
+  display: block;
 }
 
 /* Social Media Buttons */
