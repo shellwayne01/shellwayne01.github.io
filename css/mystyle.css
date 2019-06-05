@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 /* Spacing before About Me */
 #aboutMeHeader{
     padding-top: 100px;
@@ -17,6 +20,7 @@
   animation-delay: 0.5s;
   animation-duration: 4s;
 }
+
 
 @keyframes popIn {
   0% {transform: translate(200px,0px);}
