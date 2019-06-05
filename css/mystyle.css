@@ -13,7 +13,8 @@ body{
 #gif1{
   visibility: hidden;
   width: 200px;
-  bottom: 10%;
+  height: 200px;
+  bottom: 0%;
   position:absolute;
   right: 0%;
   animation-name: popIn;
@@ -25,6 +26,8 @@ body{
 @keyframes popIn {
   0% {transform: translate(200px,0px);}
   50% {visibility: visible; transform: translate(0px,0px);}
+  60%{transform: rotate(5deg);}
+  65%{transform: rotate(0deg);}
   100%{transform: translate(200px,0px);}
 }
 
