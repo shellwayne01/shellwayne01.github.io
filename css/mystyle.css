@@ -12,24 +12,31 @@ body{
 
 #gif1{
   visibility: hidden;
+  position:fixed;
+  bottom: -15px;
+  right: -25px; /*used only on fixed elements*/
   width: 200px;
   height: 200px;
-  bottom: 0%;
-  position:absolute;
-  right: 0%;
+  margin: auto 0 0 auto;
   animation-name: popIn;
   animation-delay: 0.5s;
-  animation-duration: 4s;
+  animation-duration: 6s;
+  /* background-color: green; */
 }
+
 
 
 @keyframes popIn {
-  0% {transform: translate(200px,0px);}
-  50% {visibility: visible; transform: translate(0px,0px);}
-  60%{transform: rotate(5deg);}
-  65%{transform: rotate(0deg);}
-  100%{transform: translate(200px,0px);}
+  /* Each relative to intial position */
+  0% {transform: translate(200px,50px);}
+  10%{visibility: visible;}
+  20%{transform: rotate(0deg);}
+  30%{transform:rotate(15deg);}
+  40%{transform:rotate(0deg);}
+  80%{transform: translate(0px,0px);}
+  100%{transform: translate(200px,50px);}
 }
+
 
 
 /* Social Media Buttons */
