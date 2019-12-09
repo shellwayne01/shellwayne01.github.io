@@ -1,43 +1,52 @@
 body{
   overflow-x: hidden;
 }
-/* Spacing before About Me */
-#aboutMeHeader{
-    padding-top: 100px;
-}
 
-#aboutMeContent{
-  display: block;
+.projects {
+  margin-top:15%;
 }
-
-#gif1{
-  visibility: hidden;
-  position:fixed;
-  bottom: -15px;
-  right: -25px; /*used only on fixed elements*/
-  width: 200px;
-  height: 200px;
-  margin: auto 0 0 auto;
-  animation-name: popIn;
-  animation-delay: 0.5s;
-  animation-duration: 6s;
+.project-info {
+  padding:5% 0% 10% 0%;
   /* background-color: green; */
 }
 
-
-
-@keyframes popIn {
-  /* Each relative to intial position */
-  0% {transform: translate(200px,50px);}
-  10%{visibility: visible;}
-  20%{transform: rotate(0deg);}
-  30%{transform:rotate(15deg);}
-  40%{transform:rotate(0deg);}
-  80%{transform: translate(0px,0px);}
-  100%{transform: translate(200px,50px);}
+.project-img {
+  box-sizing: content-box;
+  padding: 5% 0% 5% 0%;
+  width: auto;
+  max-width: 80%;
+  height: 50vh;
+  /* background-color: green; */
 }
 
+.prev-btn{
+  float: left;
+}
 
+.next-btn{
+  float: right;
+}
+
+.prev-btn,
+.next-btn {
+  width: 10%;
+  height: 50vh;
+  line-height: 50vh;
+  box-sizing: content-box;
+  padding: 5% 0% 5% 0%;
+  background-color: transparent;
+  font-size: 24px;
+  user-select: none;
+}
+
+/* Not working? */
+.prev-btn:active,
+.prev-btn:focus,
+.next-btn:active,
+.next-btn:focus,{
+  outline:none;
+  border:none;
+}
 
 /* Social Media Buttons */
 .fa {
@@ -67,4 +76,38 @@ body{
 .fa-github {
   background: #007bb5;
   color: white;
+}
+
+/* Spacing before About Me */
+#aboutMeHeader{
+    padding-top: 100px;
+}
+
+#aboutMeContent{
+  display: block;
+}
+
+#gif1{
+  visibility: hidden;
+  position:fixed;
+  bottom: -15px;
+  right: -25px; /*used only on fixed elements*/
+  width: 200px;
+  height: 200px;
+  margin: auto 0 0 auto;
+  animation-name: popIn;
+  animation-delay: 0.5s;
+  animation-duration: 6s;
+  /* background-color: green; */
+}
+
+@keyframes popIn {
+  /* Each relative to intial position */
+  0% {transform: translate(200px,50px);}
+  10%{visibility: visible;}
+  20%{transform: rotate(0deg);}
+  30%{transform:rotate(15deg);}
+  40%{transform:rotate(0deg);}
+  80%{transform: translate(0px,0px);}
+  100%{transform: translate(200px,50px);}
 }
