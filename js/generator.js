@@ -30,7 +30,7 @@ function greetingGenerator(){
 //Galleries
 var gallery = {
   "otbtGallery": ["images/landing1.png","images/landing2.png","images/landing3.png","images/landing4.png","images/home1.png","images/home3.png","images/home4.png","images/fav1.png", "images/fav2.png","images/explore1.png","images/explore2.png"],
-  "eeGallery":["images/e1.png", "images/e2.png","images/e3.png"]
+  "eeGallery":["images/e0.png","images/e1.png", "images/e2.png","images/e3.png"]
 }
 
 var counter = {
